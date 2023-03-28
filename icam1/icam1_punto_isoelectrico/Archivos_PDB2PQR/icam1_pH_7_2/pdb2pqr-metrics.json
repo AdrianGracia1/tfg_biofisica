@@ -1,0 +1,25 @@
+{
+    "metrics": {
+        "rusage": {
+            "ru_utime": 4.06,
+            "ru_stime": 0.1,
+            "ru_maxrss": 43612,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_isrss": 0,
+            "ru_minflt": 12772,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_inblock": 0,
+            "ru_oublock": 1008,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nvcsw": 3,
+            "ru_nivcsw": 79
+        },
+        "runtime_in_seconds": 4.06,
+        "disk_storage_in_bytes": 809586,
+        "exit_code": 0
+    }
+}

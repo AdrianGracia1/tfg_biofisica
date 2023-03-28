@@ -1,0 +1,5 @@
+La carga total de icam1_pH7_4_D1.txt es:  1.000000000000003 e , donde la carga del electrón es -1e
+La carga total de icam1_pH7_4_D2.txt es:  -0.9999999999999991 e , donde la carga del electrón es -1e
+La carga total de icam1_pH7_4_D3.txt es:  -6.0000000000000036 e , donde la carga del electrón es -1e
+La carga total de icam1_pH7_4_D4.txt es:  3.3306690738754696e-16 e , donde la carga del electrón es -1e
+La carga total de icam1_pH7_4_D5.txt es:  -3.9999999999999956 e , donde la carga del electrón es -1e

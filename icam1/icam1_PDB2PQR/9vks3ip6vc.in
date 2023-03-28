@@ -1,0 +1,27 @@
+read
+    mol pqr 9vks3ip6vc.pqr
+end
+elec 
+    mg-auto
+    dime 225 129 417
+    cglen 152.7909 85.0017 321.6604
+    fglen 109.8770 70.0010 209.2120
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx 9vks3ip6vc.pqr
+end
+print elecEnergy 1 end
+quit
