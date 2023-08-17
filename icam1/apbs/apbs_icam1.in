@@ -1,0 +1,29 @@
+read
+  mol pqr icam1_pH7_4.pqr
+end
+elec
+  mg-auto
+  dime 129 129 129
+  cglen 131.21549606323242 70.95749759674072 280.2779846191406
+  fglen 131.21549606323242 70.95749759674072 280.2779846191406
+  cgcent mol 1              # Coarse grid centered
+  fgcent mol 1              # Fine grid center
+  mol 1
+  npbe                      # Non Linearized PB
+  bcfl sdh                  # Monopole boundary condition
+  srfm smol                 # Smoothed molecular surface
+  chgm spl2                 # Linear charge discretization
+  ion 1 0.150 2.0           # Solute charge concentration radius
+  ion -1 0.150 2.0          # Solute charge concentration radius
+  pdie  1.0                 # Solute dielectric
+  sdie  78.54               # Solvent dielectric
+  sdens  10.0               # Sphere density
+  srad  1.4                 # Solvent probe radius
+  swin  0.3                 # Surface spline window
+  temp  298.15              # Temperature
+  gamma  0.105              # Surface tension
+  calcenergy no
+  calcforce no
+  write pot dx pot
+end
+quit
